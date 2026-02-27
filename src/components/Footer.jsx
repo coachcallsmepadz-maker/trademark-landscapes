@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Instagram } from 'lucide-react';
 
 const Footer = () => {
     const scrollToTop = () => {
@@ -24,6 +24,16 @@ const Footer = () => {
                 </div>
 
                 {/* Back to top */}
+                <a
+                    href="https://www.instagram.com/trademarklandscapes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-white/5 hover:bg-[#4a7c59] rounded-full transition-colors border border-white/10 text-gray-400 hover:text-white"
+                    aria-label="Instagram"
+                >
+                    <Instagram size={20} />
+                </a>
+
                 <button
                     onClick={scrollToTop}
                     className="flex items-center justify-center p-3 bg-white/5 hover:bg-white/10 rounded-full transition-colors border border-white/10 group"
