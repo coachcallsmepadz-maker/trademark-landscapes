@@ -15,7 +15,7 @@ const Footer = () => {
                     <img
                         src="/images/logo.png"
                         alt="Trademark Landscapes Logo"
-                        className="h-10 w-auto object-contain brightness-0 invert opacity-80"
+                        className="h-10 w-auto object-contain rounded-full brightness-0 invert opacity-80"
                     />
                     <p className="text-sm">
                         &copy; {new Date().getFullYear()} Trademark Landscapes. All rights reserved. <br className="hidden md:block" />

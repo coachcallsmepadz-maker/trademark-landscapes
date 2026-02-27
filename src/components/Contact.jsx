@@ -81,7 +81,7 @@ const Contact = () => {
                                 <div>
                                     <h4 className="font-bold text-lg">Phone</h4>
                                     <p className="text-gray-400 font-light">Available Mon-Fri, 7am - 5pm</p>
-                                    <a href="tel:0400000000" className="text-white hover:text-[#4a7c59] transition-colors mt-1 inline-block">Tom Michel: 0400 000 000</a>
+                                    <a href="tel:+61421905828" className="text-white hover:text-[#4a7c59] transition-colors mt-1 inline-block">Tom Michel: 0421 905 828</a>
                                 </div>
                             </div>
 
@@ -143,7 +143,7 @@ const Contact = () => {
                                         value={formData.phone}
                                         onChange={handleChange}
                                         className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-[#4a7c59] focus:ring-1 focus:ring-[#4a7c59] transition-colors"
-                                        placeholder="0400 000 000"
+                                        placeholder="0421 905 828"
                                     />
                                 </div>
                             </div>
