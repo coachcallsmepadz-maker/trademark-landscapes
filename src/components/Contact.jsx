@@ -25,13 +25,19 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="py-24 bg-[#1a1a1a] text-white relative border-t-8 border-[#2c5e3b]">
+        <section id="contact" className="py-24 relative text-white border-t-8 border-[#2c5e3b]">
+            <div
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat bg-fixed"
+                style={{ backgroundImage: "url('/images/contact_bg.png')" }}
+            />
+            <div className="absolute inset-0 z-10 bg-[#1a1a1a]/95 backdrop-blur-[3px]" />
+
             {/* Background Pattern Map representation */}
-            <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
+            <div className="absolute inset-0 z-10 opacity-[0.05] pointer-events-none"
                 style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }}
             />
 
-            <div className="container mx-auto px-6 md:px-12 relative z-10">
+            <div className="container mx-auto px-6 md:px-12 relative z-20">
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
 

@@ -32,7 +32,7 @@ const Navbar = () => {
                     <img
                         src="/images/logo.png"
                         alt="Trademark Landscapes Logo"
-                        className={`w-auto object-contain transition-all duration-300 brightness-0 invert ${isScrolled ? 'h-16' : 'h-20 md:h-24'}`}
+                        className={`w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20 md:h-24'}`}
                     />
                 </a>
 

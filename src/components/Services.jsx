@@ -31,8 +31,14 @@ const Services = () => {
     ];
 
     return (
-        <section id="services" className="py-24 bg-white relative">
-            <div className="container mx-auto px-6 md:px-12 relative z-10">
+        <section id="services" className="py-24 relative">
+            <div
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat bg-fixed"
+                style={{ backgroundImage: "url('/images/services_bg.png')" }}
+            />
+            <div className="absolute inset-0 z-10 bg-white/90 backdrop-blur-sm" />
+
+            <div className="container mx-auto px-6 md:px-12 relative z-20">
 
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <motion.div

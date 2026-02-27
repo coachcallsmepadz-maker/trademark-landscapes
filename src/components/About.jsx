@@ -11,8 +11,14 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-24 bg-[#f9f9f9]">
-            <div className="container mx-auto px-6 md:px-12">
+        <section id="about" className="py-24 relative">
+            <div
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat bg-fixed"
+                style={{ backgroundImage: "url('/images/about_bg.png')" }}
+            />
+            <div className="absolute inset-0 z-10 bg-[#f9f9f9]/90 backdrop-blur-sm" />
+
+            <div className="container mx-auto px-6 md:px-12 relative z-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                     <motion.div
